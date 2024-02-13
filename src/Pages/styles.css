@@ -1,0 +1,73 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
+.pagination .page-item.active .page-link {
+  background-color: #218b7a;
+  border-color: #218b7a;
+  color: white;
+}
+
+.pagination .page-item .page-link {
+  background-color: white;
+  border-color: #218b7a;
+  color: #218b7a;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #218b7a;
+  border-color: #218b7a;
+  color: white;
+}
+
+
+
+.bg1{
+  background-image: url("https://wallpapercave.com/wp/wp7885266.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 90%;
+  height: 500px;
+}
+
+
+.icon-link:hover {
+  animation: shake 0.5s ease-in-out;
+}
