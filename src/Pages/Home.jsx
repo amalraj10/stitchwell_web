@@ -230,7 +230,7 @@ function Home() {
         >
 <div style={{ flex: 1 }}>
             <center>
-            <Link className='icon-link' to={'https://www.instagram.com/stitchwell_boutique?igsh=YXNwZWUwOTdtZTF1&utm_source=qr'}>   <p style={{color:"#d687b6"}}><i class="fa-brands fa-4x fa-instagram"></i></p></Link> 
+            <Link className='icon-link' to={'https://www.instagram.com/sw_makeover_studio/?igsh=MWU4MHR2dnBvM3Nhcg%3D%3D&utm_source=qr'}>   <p style={{color:"#d687b6"}}><i class="fa-brands fa-4x fa-instagram"></i></p></Link> 
               <p style={{ color: '#382c6b', fontSize:"25px" }}><b>Instagram</b></p>
               <p href='https://www.instagram.com/stitchwell_boutique?igsh=YXNwZWUwOTdtZTF1&utm_source=qr' style={{  fontFamily:"'Outfit', sans-serif", color: 'black',fontSize:"20px",textDecoration:"none" }}>Reach out to us on Instagram!</p>
 
